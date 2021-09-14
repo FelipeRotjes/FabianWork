@@ -1,0 +1,737 @@
+.index-img{
+    width: 100%;
+    height: 100vh;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.logo-index{
+    width: 350px;
+    min-height: 100vh;
+    cursor: pointer;
+    background-image: url("../img/circle-1.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 50px;
+    background-position-x: center;
+    background-position-y: center;
+    background-color: transparent;
+    position: absolute;
+    top: -320px;
+    left: -60px;
+    z-index: 1;
+}
+
+
+.navbar {
+    background-color: #fff;
+}
+
+.fixed-top{
+    z-index: 0;
+}
+
+
+.plica-navbar .navbar-nav .nav-link {
+    color: black;
+    font-family: 'kionaregular';
+    font-size: 20px;
+    padding-right: 4.5rem;
+}
+
+.plica-navbar .navbar-nav .nav-link:hover {
+    color: #00ff00;
+}
+
+.navbar-logo {
+    width: 60px;    
+    height: 60px;
+    background-image: url("../img/circle-1.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position-x: center;
+    background-position-y: center;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    margin-top: 20px;
+}
+
+/* .navbar-logo:hover{
+    background-image: url("../img/logo-navbar-hover.svg");
+} */
+
+/* ------- Video Work -------- */
+
+.lightbox-container{
+    z-index: 1;
+}
+
+.videowork-contenedor{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: 253px;
+    grid-gap: 5px;
+    margin-top: 200px;
+    margin-bottom: 50px;
+
+}
+
+.videowork-contenido-1{
+    background-image: url("../img/video-1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 120%;
+    background-position-x: center;
+    background-position-y: center;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.videowork-contenido-1:hover{
+    background-image: url("../img/video-1-hover.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 140%;
+    background-position-x: center;
+    background-position-y: center;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s ease all;
+}
+
+.videowork-contenido-2{
+    background-image: url("../img/video-2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 120%;
+    background-position-x: center;
+    background-position-y: center;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.videowork-contenido-2:hover{
+    background-image: url("../img/video-2-hover.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 140%;
+    background-position-x: center;
+    background-position-y: center;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s ease all;
+}
+
+.videowork-contenido-3{
+    background-image: url("../img/video-3.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 120%;
+    background-position-x: center;
+    background-position-y: center;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.videowork-contenido-3:hover{
+    background-image: url("../img/video-3-hover.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 140%;
+    background-position-x: center;
+    background-position-y: center;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s ease all;
+}
+
+.videowork-contenido-4{
+    background-image: url("../img/video-4.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 120%;
+    background-position-x: center;
+    background-position-y: center;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.videowork-contenido-4:hover{
+    background-image: url("../img/video-4-hover.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 140%;
+    background-position-x: center;
+    background-position-y: center;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s ease all;
+}
+
+.videowork-contenido-5{
+    background-image: url("../img/video-5.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 120%;
+    background-position-x: center;
+    background-position-y: center;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.videowork-contenido-5:hover{
+    background-image: url("../img/video-5-hover.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 140%;
+    background-position-x: center;
+    background-position-y: center;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s ease all;
+}
+
+.videowork-contenido-6{
+    background-image: url("../img/video-6.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 120%;
+    background-position-x: center;
+    background-position-y: center;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.videowork-contenido-6:hover{
+    background-image: url("../img/video-6-hover.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 140%;
+    background-position-x: center;
+    background-position-y: center;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s ease all;
+}
+
+.videowork-contenido-7{
+    background-image: url("../img/video-7.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 120%;
+    background-position-x: center;
+    background-position-y: center;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.videowork-contenido-7:hover{
+    background-image: url("../img/video-7-hover.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 140%;
+    background-position-x: center;
+    background-position-y: center;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s ease all;
+}
+
+.videowork-contenido-8{
+    background-image: url("../img/video-8.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 120%;
+    background-position-x: center;
+    background-position-y: center;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.videowork-contenido-8:hover{
+    background-image: url("../img/video-8-hover.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 140%;
+    background-position-x: center;
+    background-position-y: center;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s ease all;
+}
+
+.videowork-contenido-9{
+    background-image: url("../img/video-9.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 120%;
+    background-position-x: center;
+    background-position-y: center;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.videowork-contenido-9:hover{
+    background-image: url("../img/video-9-hover.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 140%;
+    background-position-x: center;
+    background-position-y: center;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s ease all;
+}
+
+.videowork-contenido{
+    background-color: #00ff00;
+
+}
+
+#video-name{
+    color: #fff;
+    font-family: 'kionaregular';
+    font-size: 20px;
+    opacity: 0;
+}
+
+#video-name:hover{
+    color: #fff;
+    font-family: 'kionaregular';
+    font-size: 20px;
+    display: block;
+    opacity: 100;
+    transition: 0.1s ease all;
+}
+
+/* ----- Project ------ */
+
+.project-tittle-1{
+    color:black;
+    font-family: 'kionasemibold';
+    font-size: 80px;
+    margin-top: 200px;
+
+}
+
+.project-contenedor{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: 400px;
+    grid-gap: 5px;
+    margin-top: 100px;
+}
+
+.project-contenido-1{
+    background-image: url("../img/mind-theater-workshop.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-x: center;
+    background-position-y: center;
+    background-color: transparent;
+}
+
+.project-contenido-2{
+    background-image: url("../img/little-spaces-miami.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-x: center;
+    background-position-y: center;
+    background-color: transparent;
+}
+
+.project-contenido-3{
+    background-image: url("../img/plica.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-x: center;
+    background-position-y: center;
+    background-color: transparent;
+}
+
+.project-text-1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: 200px;
+    grid-gap: 5px;
+}
+
+.project-text-contenido-1{
+    color:#00ff00;
+    font-family: 'kionabold';
+    font-size: 20px;
+    display: block;
+    margin: auto;
+    text-align: center;
+    padding: 50px;
+}
+
+.project-text-contenido-2{
+    color:#00ff00;
+    font-family: 'kionabold';
+    font-size: 20px;
+    display: block;
+    margin: auto;
+    text-align: center;
+    padding: 60px;
+    margin-top: 4px;
+}
+
+.project-text-contenido-3{
+    color:#00ff00;
+    font-family: 'kionabold';
+    font-size: 20px;
+    display: block;
+    margin: auto;
+    text-align: center;
+    padding: 90px;
+    margin-top: -28px;
+}
+
+.project-tittle-2{
+    color:black;
+    font-family: 'kionasemibold';
+    font-size: 70px;
+    margin-top: 50px;
+}
+
+.project-text-2, .project-text-3, .project-text-4{
+    color:black;
+    font-family: 'kionaregular';
+    font-size: 20px;
+    text-align: justify;
+}
+
+.project-theater-contenedor{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(6, 420px);
+    grid-gap: 5px;
+}
+
+.project-theater-contenido-1{
+    background-image: url("../img/theater-1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-x: center;
+    background-position-y: center;
+    background-color: transparent;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.project-theater-contenido-2{
+    background-image: url("../img/theater-2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-x: center;
+    background-position-y: center;
+    background-color: transparent;
+}
+
+.project-theater-contenido-3{
+    background-image: url("../img/theater-3.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-x: center;
+    background-position-y: center;
+    background-color: transparent;
+}
+
+.project-theater-contenido-4{
+    background-image: url("../img/theater-4.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 120%;
+    background-position-x: center;
+    background-position-y: center;
+    background-color: transparent;
+    grid-row-start: 3;
+}
+
+.project-theater-contenido-5{
+    background-image: url("../img/theater-5.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 105%;
+    background-position-x: center;
+    background-position-y: center;
+    background-color: transparent;
+    grid-row-start: -5;
+    grid-row-end: -3;
+
+}
+
+.project-theater-contenido-6{
+    background-image: url("../img/theater-6.1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-x: center;
+    background-position-y: center;
+    background-color: transparent;
+}
+
+.project-theater-contenido-7{
+    background-image: url("../img/theater-7.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 110%;
+    background-position-x: center;
+    background-position-y: center;
+    background-color: transparent;
+}
+
+.project-theater-contenido-8{
+    background-image: url("../img/theater-8.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 110%;
+    background-position-x: center;
+    background-position-y: center;
+    background-color: transparent;
+}
+
+.project-theater-contenido-9{
+    background-image: url("../img/theater-9.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 150%;
+    background-position-x: center;
+    background-position-y: center;
+    background-color: transparent;
+    grid-column-start: 1;
+    grid-column-end: -1;
+}
+
+
+
+
+
+/* ----- Bio ------ */
+
+.bio{
+    width: 50%;
+    height: 100vh;
+    background-image: url("../img/bio-img.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position-x: center;
+    background-position-y: center;
+    background-color: transparent;
+    margin-top: 20px;
+}
+
+.bio-tittle{
+    color:black;
+    font-family: 'kionaregular';
+    font-size: 50px;
+    margin-top: 150px;
+    width: 100%;
+
+}
+
+.text-bio-1{
+    color:black;
+    font-family: 'kionaregular';
+    font-size: 15px;
+    text-align: justify;
+    margin-top: 50px;
+}
+
+.text-bio-2{
+    color:black;
+    font-family: 'kionaregular';
+    font-size: 15px;
+    text-align: justify;
+
+}
+
+.text-bio-3{
+    color:black;
+    font-family: 'kionaregular';
+    font-size: 15px;
+    text-align: justify;
+
+}
+
+/* ------ Contact -------- */
+
+/* .contact{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    text-align: end;
+    padding: 100px;
+}
+
+.contact-text-1{
+    color:black;
+    font-family: 'kionaregular';
+    font-size: 40px;
+}
+
+.contact-text-2{
+    color:black;
+    font-family: 'kionaregular';
+    font-size: 40px;
+}
+
+.contact-text-3{
+    color:black;
+    font-family: 'kionaregular';
+    font-size: 40px;
+}
+
+.contact-text-4{
+    color:black;
+    font-family: 'stretch_proregular';
+    font-size: 40px;
+} */
+
+@media (max-width: 768px){
+    /* .index-img{
+        height: 30vh;
+    } */
+
+    .logo-index{
+        top: -350px;
+        left: -120px;
+        background-size: 40px;
+    }
+    .videowork-contenedor{
+        grid-template-columns: none;
+        margin-top: 140px;
+    }
+
+    .project-tittle-1{
+        width: 100%;
+        font-size: 30px;
+        margin-top: 140px;
+    }
+
+    .project-contenedor{
+        grid-auto-rows: 150px;
+        margin-top: 30px;
+    }
+
+    .project-text-contenido-1{
+        padding: 0;
+    }
+
+    .project-text-contenido-2{
+        padding: 0;
+    }
+
+    .project-text-contenido-3{
+        padding: 0;
+        margin-top: 0;
+    }
+
+    .project-tittle-2{
+        width: 100%;
+        font-size: 30px;
+        margin-top: 0;
+    }
+
+    .project-theater-contenedor{
+        grid-template-rows: repeat(6, 100px);
+    }
+
+    .bio{
+        width: 100%;
+        height: 80vh;
+        background-size: 90%;
+    }
+
+    .bio-tittle{
+        margin-top: -60px;
+        font-size: 40px;
+    }
+
+}
+
+@media (max-width: 480px) {
+
+    .navbar-logo{
+        margin-top: 0;
+    }
+
+    .logo-index{
+        top: -280px;
+        left: -120px;
+        background-size: 40px;
+        z-index: 1;
+    }
+
+    .project-text-contenido-1, .project-text-contenido-2, .project-text-contenido-3  {
+        font-size: 15px;
+    }
+
+    .project-theater-contenido-1{
+        background-size: 105%;
+    }
+
+    .bio-tittle{
+        font-size: 30px;
+        margin-top: -30px;
+    }
+
+    .video-index{       
+    width: 500%;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: -750px;
+    right: 0;
+    }
+}
+

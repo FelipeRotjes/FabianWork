@@ -1,0 +1,98 @@
+
+@font-face {
+    font-family: 'kionaitallic';
+    src: url('kiona-itallic-webfont.woff2') format('woff2'),
+    url('kiona-itallic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'kionaregular';
+    src: url('kiona-regular-webfont.woff2') format('woff2'),
+    url('kiona-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'kionabold';
+    src: url('kiona-bold-webfont.woff2') format('woff2'),
+    url('kiona-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'kionabold_itallic';
+    src: url('kiona-bolditallic-webfont.woff2') format('woff2'),
+    url('kiona-bolditallic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'kionalight';
+    src: url('kiona-light-webfont.woff2') format('woff2'),
+    url('kiona-light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'kionalight_itallic';
+    src: url('kiona-lightitallic-webfont.woff2') format('woff2'),
+    url('kiona-lightitallic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'kionasemibold';
+    src: url('kiona-semibold-webfont.woff2') format('woff2'),
+    url('kiona-semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'kionasemibold_itallic';
+    src: url('kiona-semibolditallic-webfont.woff2') format('woff2'),
+    url('kiona-semibolditallic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+@font-face {
+    font-family: 'stretch_proregular';
+    src: url('stretchpro-webfont.woff2') format('woff2'),
+    url('stretchpro-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
