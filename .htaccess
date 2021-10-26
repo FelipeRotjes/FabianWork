@@ -1,0 +1,4 @@
+RewriteEngine on
+RewriteCond %{HTTP_HOST} ^plicaproject.com [NC,OR]
+RewriteCond %{HTTP_HOST} ^www.plicaproject.com [NC]
+RewriteRule ^(.*)$ https://plicaproject.com/$1 [L,R=301,NC]
