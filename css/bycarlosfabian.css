@@ -404,6 +404,87 @@
     transition: 0.3s ease all;
 }
 
+.videowork-contenido-13{
+    background-image: url("../img/video-13.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 120%;
+    background-position-x: center;
+    background-position-y: center;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.videowork-contenido-13:hover{
+    background-image: url("../img/video-13-hover.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 140%;
+    background-position-x: center;
+    background-position-y: center;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s ease all;
+}
+
+.videowork-contenido-14{
+    background-image: url("../img/video-14.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 120%;
+    background-position-x: center;
+    background-position-y: center;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.videowork-contenido-14:hover{
+    background-image: url("../img/video-14-hover.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 140%;
+    background-position-x: center;
+    background-position-y: center;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s ease all;
+}
+
+.videowork-contenido-15{
+    background-image: url("../img/video-15.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 120%;
+    background-position-x: center;
+    background-position-y: center;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.videowork-contenido-15:hover{
+    background-image: url("../img/video-15-hover.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 140%;
+    background-position-x: center;
+    background-position-y: center;
+    background-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s ease all;
+}
+
 .videowork-contenido{
     background-color: #00ff00;
 
